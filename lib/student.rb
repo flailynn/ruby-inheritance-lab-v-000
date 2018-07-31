@@ -5,4 +5,8 @@ class Student < User
     self.knowledge = []
   end
 
+  def learn(knowledge)
+    self.knowledge << knowledge
+  end
+
 end
